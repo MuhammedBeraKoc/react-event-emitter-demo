@@ -1,0 +1,24 @@
+$blue-color: #007bff
+
+.buttonSet
+  margin-top: 1rem
+  display: flex
+  justify-content: space-between
+  flex-direction: column
+
+  & .button
+    user-select: none
+    text-transform: uppercase
+    margin: 12px 0
+    display: inline-block
+    padding: 12px 8px
+    border-radius: 4px
+    color: white
+    background-color: rgba($blue-color, 0.8)
+    border: 1px solid $blue-color
+    transition: all .2s ease-in-out
+    font-weight: bold
+
+  & .button:hover
+    cursor: pointer
+    background-color: $blue-color
